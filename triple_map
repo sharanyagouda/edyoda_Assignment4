@@ -1,0 +1,11 @@
+lst=[]
+num=int(input("enter size of list:"))
+for i in range(num):
+    ele=int(input("enter a value:"))
+    lst.append(ele)
+print(lst)   
+def triple(lst):
+    return lst*3
+
+data=list(map(triple,lst))
+print(data)
